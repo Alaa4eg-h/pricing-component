@@ -1,0 +1,58 @@
+/* GOOGLE FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap");
+
+/* CSS VARIABLES  */
+:root {
+  --primaryColor: linear-gradient (hsl(236, 72%, 79%) to hsl(237, 63%, 64%));
+  --mainBlue: hsl(233, 13%, 49%);
+  --lightBlue: hsl(234, 14%, 74%);
+  --lightBlue-alt: hsl(240, 78%, 98%);
+  --darkBlue: hsl(232, 13%, 33%);
+  --mainWhite: #fff;
+  --mainBlack: #222;
+  --mainSpacing: 0.5rem;
+  --mainTransition: all 0.3s;
+}
+/* GENERAL RESETS */
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+/* GLOBAL STYLES */
+
+h1 {
+  font-size: 3.5rem;
+  margin-bottom: 3rem;
+}
+
+h2 {
+  font-size: 2.4;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1170px;
+  max-width: 85vw;
+  margin: 0 auto;
+}
+
+/* PRICING PLANE STYLES */
