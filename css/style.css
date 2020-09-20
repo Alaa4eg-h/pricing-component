@@ -3,8 +3,16 @@
 
 /* CSS VARIABLES  */
 :root {
-  --primaryColor: linear-gradient(to right, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
-  --primaryColor-alt: linear-gradient(to right, hsl(237, 63%, 64%), hsl(236, 72%, 79%));
+  --primaryColor: linear-gradient(
+    to right,
+    hsl(236, 72%, 79%),
+    hsl(237, 63%, 64%)
+  );
+  --primaryColor-alt: linear-gradient(
+    to right,
+    hsl(237, 63%, 64%),
+    hsl(236, 72%, 79%)
+  );
   --mainBlue: hsl(233, 13%, 49%);
   --lightBlue: hsl(234, 14%, 74%);
   --lightBlue-alt: hsl(240, 78%, 98%);
@@ -34,7 +42,6 @@ body {
   font-size: 1.5rem;
   font-weight: normal;
   background: var(--lightBlue-alt);
-
 }
 
 /* GLOBAL STYLES */
@@ -77,9 +84,7 @@ ul {
   border-radius: 5px;
   width: 100%;
   border: 1px solid transparent;
-
 }
-
 
 .btn-blue {
   background: var(--primaryColor);
@@ -102,8 +107,6 @@ ul {
   background: var(--primaryColor);
   color: var(--mainWhite);
 }
-
-
 
 /* PRICING PLANE STYLES */
 .pricing {
@@ -132,7 +135,6 @@ ul {
   background: var(--primaryColor);
   border-radius: 50px;
   box-shadow: var(--lightShadow);
-
 }
 
 .plan-control {
@@ -145,14 +147,13 @@ ul {
   transition: var(--mainTransition);
 }
 
-.monthly {
+.annually {
   transform: translateX(10px);
 }
 
-.annually {
+.monthly {
   transform: translateX(32px);
 }
-
 
 .system {
   font-size: 1.6rem;
@@ -183,8 +184,6 @@ ul {
   color: var(--mainWhite);
 }
 
-
-
 .plan-title,
 .plan-list-item {
   font-size: 1.5rem;
@@ -203,7 +202,6 @@ ul {
   font-size: 4rem;
 }
 
-
 .plan-list {
   margin: 3rem 0 3rem 0;
 }
@@ -216,7 +214,6 @@ ul {
 .plan-list-item:first-child {
   border-top: 1px solid var(--lightBlue);
 }
-
 
 /* MEDIA QUERY FOR RESPONSIVE */
 
